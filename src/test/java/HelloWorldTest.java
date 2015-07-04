@@ -1,7 +1,6 @@
 import org.junit.Test;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloWorldTest {
 
@@ -9,6 +8,7 @@ public class HelloWorldTest {
     public void greetingShouldBeHelloWorld() {
         HelloWorld greeter = new HelloWorld();
         String greeting = greeter.getGreeting();
-        assertThat(greeting, equalTo("Hello world!"));
+        assertThat(greeting)
+                .isEqualTo("Hello world!");
     }
 }
