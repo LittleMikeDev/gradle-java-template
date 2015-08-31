@@ -12,9 +12,11 @@ This is a template for Java projects, including:
 - Jacoco code coverage reports
 - Travis-CI ready (just enable the repository in Travis-CI)
 - Code coverage reports uploaded to http://codecov.io (when Travis-CI build enabled)
+- Simplified publishing (Publishing to Maven local by default)
 
 Usage
 =====
 
 1. Clone the repo
-2. Run ./setup.sh (this will leave you with a repo with a single initial commit)
+2. Rename folder to new project name
+3. Run ./setup.sh (this will leave you with a repo with a single initial commit)
