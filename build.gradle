@@ -10,8 +10,8 @@ version = '0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
 basicPublishing {
-    // Your organisation identifier
-    //organisation = 'uk.co.littlemike'
+    // Your organisation identifier (required)
+    organisation = 'com.foo'
 }
 
 repositories {
