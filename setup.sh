@@ -9,6 +9,7 @@ echo "# TODO" >> README.md
 git init
 git add .
 git rm --cached "$0"
+git update-index --chmod=+x ./gradlew
 git commit -m "Initial empty project commit"
 
 #Self destruct!
