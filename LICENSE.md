@@ -1,4 +1,4 @@
-Copyright (c) 2015, Little Mike
+Copyright (c) 201?, <YOUR NAME>
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
